@@ -7,13 +7,6 @@ export const INTERVALO_MINUTOS = 30
 // As classes ficam escritas por extenso para o Tailwind encontrá-las no build.
 export const ESPACOS = [
   {
-    nome: 'Sala de Atendimento',
-    cor: {
-      bloco: 'bg-violet-50 border-violet-500 text-violet-950',
-      ponto: 'bg-violet-500',
-    },
-  },
-  {
     nome: 'Sala Eliana Silva',
     cor: {
       bloco: 'bg-fuchsia-50 border-fuchsia-500 text-fuchsia-950',

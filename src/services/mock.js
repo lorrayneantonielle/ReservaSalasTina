@@ -9,7 +9,6 @@ function dadosIniciais() {
   const hoje = hojeISO()
   const amanha = adicionarDias(hoje, 1)
   return [
-    { data: hoje, espaco: 'Sala de Atendimento', horaInicio: '08:00', horaFim: '12:00', atividade: 'Acolhimento e atendimento (Interna)', responsavel: 'Equipe da Casa' },
     { data: hoje, espaco: 'Galpão', horaInicio: '09:00', horaFim: '13:00', atividade: 'Oficina de serigrafia (Externa)', responsavel: 'Ana' },
     { data: hoje, espaco: 'Cozinha', horaInicio: '12:00', horaFim: '14:00', atividade: 'Almoço coletivo (Interna)', responsavel: 'Coletivo da Cozinha' },
     { data: hoje, espaco: 'Sala Valdete Guerra', horaInicio: '14:00', horaFim: '19:00', atividade: 'Sarau Novembro Negro (Interna)', responsavel: 'Pedro' },
