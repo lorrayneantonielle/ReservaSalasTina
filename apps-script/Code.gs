@@ -64,7 +64,6 @@ const CONFIG = {
 /** Espaços fixos da Casa. `chaves` são usadas para reconhecer o espaço em
  *  textos digitados manualmente na planilha (sem acento, minúsculo). */
 const ESPACOS = [
-  { nome: 'Sala de Atendimento', chaves: ['atendimento'] },
   { nome: 'Sala Eliana Silva', chaves: ['eliana'] },
   { nome: 'Sala Valdete Guerra', chaves: ['valdete'] },
   { nome: 'Galpão', chaves: ['galpao'] },
