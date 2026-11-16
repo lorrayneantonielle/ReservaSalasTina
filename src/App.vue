@@ -84,17 +84,13 @@ function atualizarAgenda(reserva) {
 
 <template>
   <div class="flex min-h-screen flex-col">
-    <header class="relative overflow-hidden bg-tina-900 text-white">
-      <div class="pointer-events-none absolute -right-16 -top-24 h-64 w-64 rounded-full bg-terra-500/30 blur-2xl"></div>
-      <div class="pointer-events-none absolute -bottom-32 left-1/3 h-64 w-64 rounded-full bg-tina-500/30 blur-3xl"></div>
-
-      <div class="relative mx-auto flex max-w-7xl items-center gap-4 px-4 py-5 sm:px-6 sm:py-7 lg:px-8">
-        <span class="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-white/10 ring-1 ring-white/20 sm:h-14 sm:w-14">
-          <svg viewBox="0 0 64 64" class="h-8 w-8 sm:h-9 sm:w-9" aria-hidden="true">
-            <path d="M10 30 32 12l22 18v20a4 4 0 0 1-4 4H14a4 4 0 0 1-4-4Z" fill="#e07c58" />
-            <path d="M25 54V38h14v16" fill="#fbf7f2" />
-          </svg>
-        </span>
+    <header class="bg-[#433387] text-white">
+      <div class="mx-auto flex max-w-7xl items-center gap-4 px-4 py-5 sm:px-6 sm:py-7 lg:px-8">
+        <img
+          src="/logo.png"
+          alt=""
+          class="h-12 w-12 shrink-0 rounded-2xl object-cover sm:h-14 sm:w-14"
+        />
         <div class="min-w-0">
           <h1 class="font-display text-2xl font-semibold leading-tight sm:text-3xl">Casa Tina Martins</h1>
           <p class="text-sm text-tina-100/90">Agenda e reserva de espaços</p>
